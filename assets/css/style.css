@@ -3,8 +3,10 @@ section {
     padding-top: 115px;
     display: flex;
     flex-direction: column;
-    background-color: #292B2E;
+    background-color: #212529;
 }
+
+/* PÁGINA HOME: */
 
 .home-container {
     display: flex;
@@ -26,4 +28,37 @@ section {
     font-size: 3rem;
     font-weight: bold;
     color: #FFF;
+}
+.curso-2 {
+    font-family:'Inter', sans-serif;
+    display: flex;
+    /* justify-content: center; */
+    font-size: 1.5rem;
+    font-weight: 100;
+    color: #FFF;
+}
+
+.image-container {
+    height: 279px;
+    width: 280px;
+    margin-top: 50px;
+    background-color: #9C47C6;
+    border-radius: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bit-smile {
+    height: 320px;
+    width: 320px;
+    padding-bottom: 25px;
+}
+
+.columns {
+    display: flex;
+    gap: 50px;
+}
+
+.meses-column, .projetos-column, .parceiros-column {
+    background-color: #292B2E;
 }
