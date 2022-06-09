@@ -40,7 +40,7 @@ img {
 }
 
 
-.header-button {
+.button {
     color: #FFF;
     border: #6D1499 solid 3px;
     border-radius: 50px;
@@ -51,6 +51,7 @@ img {
     background-color: #9C47C6;
 }
 
-.header-button:hover {
+.button:hover {
     color: #212529;
+    border: #6D1499 solid 3px;
 }
