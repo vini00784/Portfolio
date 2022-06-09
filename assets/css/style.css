@@ -183,18 +183,23 @@ section {
 }
 
 .skills-1 {
-    width: 45%;
-    background-color: aqua;
+    height: 320px;
+    width: 65%;
+    /* gap: 10px 0px; */
+    padding-left: 35px;
 }
 
 .skills-2 {
-    width: 55%;
-    background-color: aquamarine;
+    height: 320px;
+    width: 35%;
+    align-items: flex-end;
+    padding-right: 35px;
 }
 
 .skills {
-    padding-top: 100px;
-    padding-left: 19px;
+    padding-top: 30px;
+    /* padding-left: 19px; */
+    display: flex;
     flex-direction: row;
 }
 
@@ -206,8 +211,8 @@ section {
 }
 
 .barrinha {
-    height: 16px;
-    width: 850px;
+    height: 50px;
+    width: 950px;
 }
 
 .img-skills {
