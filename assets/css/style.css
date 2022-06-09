@@ -169,6 +169,10 @@ section {
 
 /* PÁGINA SKILLS: */
 
+.skills-container {
+    /* flex-direction: row; */
+}
+
 .skills-title {
     display: flex;
     justify-content: center;
@@ -178,6 +182,35 @@ section {
     text-shadow: -8px 0px 3px #6D1499;
 }
 
+.skills-1 {
+    width: 45%;
+    background-color: aqua;
+}
+
+.skills-2 {
+    width: 55%;
+    background-color: aquamarine;
+}
+
 .skills {
     padding-top: 100px;
+    padding-left: 19px;
+    flex-direction: row;
+}
+
+.skills-name {
+    font-size: 1.25rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    color: #FFF;
+}
+
+.barrinha {
+    height: 16px;
+    width: 850px;
+}
+
+.img-skills {
+    height: 320px;
+    width: 545px;
 }
