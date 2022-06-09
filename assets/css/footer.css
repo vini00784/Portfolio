@@ -1,0 +1,95 @@
+footer {
+    height: 550px;
+    width: 1440px;
+    display: flex;
+    flex-direction: column;
+    background-color: #212529;
+    justify-content: center;
+    align-items: center;
+}
+
+.info-container {
+    height: 230px;
+    width: 1340px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.my-info {
+    display: flex;
+    flex-direction: column;
+}
+.my-name {
+    font-family: 'Poppins', sans-serif;
+    color: #9C47C6;
+    font-weight: bold;
+    font-size: 2rem;
+}
+.my-deeds {
+    font-family: 'Work Sans', sans-serif;
+    color: #D4D4D4;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.subtitle {
+    font-family: 'Work Sans', sans-serif;
+    color: #F5FBF2;
+    font-weight: bold;
+}
+
+.itens-container {
+    display: flex;
+    flex-direction: column;
+    padding-top: 12px;
+    gap: 8px;
+}
+
+.item {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 1.125rem;
+    color: #7B7B7B;
+}
+
+.newsletter {
+    display: flex;
+    flex-direction: column;
+}
+
+.down-container {
+    display: flex;
+    font-size: 3rem;
+}
+
+i {
+    color: #FFF;
+    font-size: 2.5rem;
+    transition: ease 0.7s;
+}
+i:hover {
+    color: #212529;
+}
+.icon-container {
+    height: 50px;
+    width: 50px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #9C47C6;
+    transition: ease 0.7s;
+}
+.icon-container:hover {
+    padding: 20px;
+    transform: scale(1.2);
+}
+
+.social-container {
+    display: flex;
+}
+.social-list {
+    display: flex;
+    gap: 30px;
+}
+
