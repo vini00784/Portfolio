@@ -64,8 +64,11 @@ section {
     height: 120px;
     width: 416px;
     margin-top: 95px;
+    display: flex;
     border-radius: 10px;
     transition: ease 0.7s;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .column:hover {
@@ -79,18 +82,21 @@ section {
     display: flex;
 }
 
-.txt {
+.txt{
     display: flex;
-    font-family: 'Inter', sans-serif;
     color: #FFF;
+    font-family: 'Inter', sans-serif;
     justify-content: center;
+    align-items: center;
 }
 
-.num {
+.num{
     display: flex;
     justify-content: center;
+    align-items: center;
     color: #9C47C6;
-    font-size: 1.625rem;
+    font-family: 'Inter', sans-serif;
+    font-size: 22px;
 }
 
 /* PÁGINA SOBRE: */
